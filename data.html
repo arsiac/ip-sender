@@ -1,0 +1,41 @@
+<html>
+<body>
+    <table> <!-- Replace "table-1" with any of the design numbers -->
+    <thead>
+    <th>Iface</th>
+    <th>IPv4</th>
+    <th>IPv6</th>
+    </thead>
+    <tbody>${content}</tbody>
+    </table>
+</body>
+<style>
+    table thead, tr {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(235, 242, 224);
+    }
+
+    table {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(235, 242, 224);
+    }
+
+    /* Padding and font style */
+        table td, th {
+        padding: 5px 10px;
+        font-size: 12px;
+        font-family: Verdana;
+        color: rgb(149, 170, 109);
+    }
+
+    /* Alternating background colors */
+    table tr:nth-child(even) {
+        background: rgb(230, 238, 214)
+    }
+    table tr:nth-child(odd) {
+        background: #FFF
+    }
+</style>
+</html>
